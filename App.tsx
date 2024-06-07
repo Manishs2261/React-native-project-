@@ -24,7 +24,9 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import ChooseLanguage from './src/components/ChooseLanguage';
+import Login from './src/components/Login';
+import Home from './src/components/Home';
+ 
 
  
 
@@ -35,7 +37,9 @@ function App(): React.JSX.Element {
   return (
      
     <View>
-      <ChooseLanguage/>
+    {/* <Login/> */}
+
+    <Home/>
     </View>
   );
 }
