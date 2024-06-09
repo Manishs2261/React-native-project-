@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Image, ImageBackground, Text, TextInput, TouchableOpacity, View } from 'react-native'
 import { Images } from '../globles/images';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';

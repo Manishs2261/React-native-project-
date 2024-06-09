@@ -1,4 +1,5 @@
 import {Image, ScrollView, Text, View} from 'react-native';
+ 
 
 const Home = () => {
   const items = Array.from({length: 10}, (_, index) => (
@@ -69,8 +70,40 @@ const Home = () => {
       </Text>
     </View>
   ));
+
+
+
+  const itemList = Array.from({length: 10}, (_, index) => (
+    <View
+      key={index}
+      style={{
+        height: 215,
+        width: 148,
+        backgroundColor: '#ddebe0',
+        borderRadius: 5,
+        padding: 10,
+        marginRight: 10,
+      }}>
+      <Image
+        source={require('../assets/image/mobile_1.png')}
+        style={{alignSelf: 'center', marginTop: 10}}
+      />
+     
+      <Text
+        style={{fontSize: 12, fontWeight: '300', color: 'black', marginTop: 5}}>
+        Apple
+      </Text>
+      <Text style={{fontSize: 12, fontWeight: '300', color: 'black'}}>
+        iPhone 13 Pro
+      </Text>
+      <Text style={{fontSize: 17, fontWeight: '700', color: 'black'}}>
+        SAR 2600
+      </Text>
+    </View>
+  ));
   return (
-    <View>
+   <ScrollView>
+      <View>
       <View
         style={{
           height: 60,
@@ -109,7 +142,154 @@ const Home = () => {
           </ScrollView>
         </View>
       </ScrollView>
+
+
+
+      <View style={{height:100,width:380,backgroundColor:"black", borderRadius:7,alignSelf:"center",justifyContent:'center'}}>
+  <Text style={{color:"white",fontSize:34,fontWeight:"700",alignSelf:'center'}}>
+    Mobile
+  </Text>
+      </View>
+
+       <View style={{flexDirection:'row', justifyContent:'space-around',marginTop:20,marginRight:20,marginLeft:20 }}>
+
+       <View style={{backgroundColor:'yellow' , height:30, width:130 ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        New Arrival Item
+        </Text>
+      </View>
+
+      <View style={{backgroundColor:'yellow' , height:30, width:100 ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        Best Selling
+        </Text>
+      </View>
+
+      <View style={{backgroundColor:'yellow' , height:30, width:120 ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        On Sale Items
+        </Text>
+      </View>
+       </View>
+
+
+       <ScrollView horizontal={true} style={{padding: 10}}>
+            {itemList}
+          </ScrollView>
+
+
+          <View style={{height:100,width:380,backgroundColor:"black", borderRadius:7,alignSelf:"center",justifyContent:'center'}}>
+  <Text style={{color:"white",fontSize:34,fontWeight:"700",alignSelf:'center'}}>
+    Mobile
+  </Text>
+      </View>
+
+       <View style={{flexDirection:'row', justifyContent:'space-around',marginTop:20,marginRight:20,marginLeft:20 }}>
+
+       <View style={{backgroundColor:'yellow' , height:30, width:130 ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        New Arrival Item
+        </Text>
+      </View>
+
+      <View style={{backgroundColor:'yellow' , height:30, width:100 ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        Best Selling
+        </Text>
+      </View>
+
+      <View style={{backgroundColor:'yellow' , height:30, width:120 ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        On Sale Items
+        </Text>
+      </View>
+       </View>
+
+
+       <ScrollView horizontal={true} style={{padding: 10}}>
+            {itemList}
+          </ScrollView>
+
+
+          <View style={{height:100,width:380,backgroundColor:"black", borderRadius:7,alignSelf:"center",justifyContent:'center'}}>
+  <Text style={{color:"white",fontSize:34,fontWeight:"700",alignSelf:'center'}}>
+    Mobile
+  </Text>
+      </View>
+
+       <View style={{flexDirection:'row', justifyContent:'space-around',marginTop:20,marginRight:20,marginLeft:20 }}>
+
+       <View style={{backgroundColor:'yellow' , height:30, width:130 ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        New Arrival Item
+        </Text>
+      </View>
+
+      <View style={{backgroundColor:'yellow' , height:30, width:100 ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        Best Selling
+        </Text>
+      </View>
+
+      <View style={{backgroundColor:'yellow' , height:30, width:120 ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        On Sale Items
+        </Text>
+      </View>
+       </View>
+
+
+       <ScrollView horizontal={true} style={{padding: 10}}>
+            {itemList}
+          </ScrollView>
+
+
+          <View style={{height:100,width:380,backgroundColor:"black", borderRadius:7,alignSelf:"center",justifyContent:'center'}}>
+  <Text style={{color:"white",fontSize:34,fontWeight:"700",alignSelf:'center'}}>
+    Mobile
+  </Text>
+      </View>
+
+       <View style={{flexDirection:'row', justifyContent:'space-around',marginTop:20,marginRight:20,marginLeft:20 }}>
+
+       <View style={{backgroundColor:'yellow' , height:30, width:130 ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        New Arrival Item
+        </Text>
+      </View>
+
+      <View style={{backgroundColor:'yellow' , height:30, width:100 ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        Best Selling
+        </Text>
+      </View>
+
+      <View style={{backgroundColor:'yellow' , height:30, width:120 ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        On Sale Items
+        </Text>
+      </View>
+       </View>
+
+
+       <ScrollView horizontal={true} style={{padding: 10}}>
+            {itemList}
+          </ScrollView>
+
     </View>
+   </ScrollView>
   );
 };
 
