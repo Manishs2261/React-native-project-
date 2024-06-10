@@ -86,7 +86,7 @@ const Home = () => {
       }}>
       <Image
         source={require('../assets/image/mobile_1.png')}
-        style={{alignSelf: 'center', marginTop: 10}}
+        style={{alignSelf: 'center'}}
       />
      
       <Text
@@ -183,30 +183,43 @@ const Home = () => {
 
           <View style={{height:100,width:380,backgroundColor:"black", borderRadius:7,alignSelf:"center",justifyContent:'center'}}>
   <Text style={{color:"white",fontSize:34,fontWeight:"700",alignSelf:'center'}}>
-    Mobile
+    LAPTOP
   </Text>
       </View>
 
-       <View style={{flexDirection:'row', justifyContent:'space-around',marginTop:20,marginRight:20,marginLeft:20 }}>
+       <View style={{flexDirection:'row',marginTop:20,marginRight:20,marginLeft:20 }}>
 
-       <View style={{backgroundColor:'yellow' , height:30, width:130 ,borderRadius:15,justifyContent:"center"
+       <View style={{backgroundColor:'yellow' , height:25, width:90 , marginRight:5,borderRadius:15,justifyContent:"center"
       }}>
         <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
-        New Arrival Item
+        Best Seller
         </Text>
       </View>
 
-      <View style={{backgroundColor:'yellow' , height:30, width:100 ,borderRadius:15,justifyContent:"center"
+      <View style={{backgroundColor:'yellow' , height:25,marginRight:5, width:40 ,borderRadius:15,justifyContent:"center"
       }}>
         <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
-        Best Selling
+        HP
         </Text>
       </View>
 
-      <View style={{backgroundColor:'yellow' , height:30, width:120 ,borderRadius:15,justifyContent:"center"
+      <View style={{backgroundColor:'yellow' , height:25,marginRight:5, width:50  ,borderRadius:15,justifyContent:"center"
       }}>
         <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
-        On Sale Items
+        Dell
+        </Text>
+      </View>
+
+      <View style={{backgroundColor:'yellow' , height:25, marginRight:5,width:70  ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        Apple
+        </Text>
+      </View>
+      <View style={{backgroundColor:'yellow' , height:25, marginRight:5,width:60  ,borderRadius:15,justifyContent:"center"
+      }}>
+        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+        Acer
         </Text>
       </View>
        </View>
@@ -219,33 +232,34 @@ const Home = () => {
 
           <View style={{height:100,width:380,backgroundColor:"black", borderRadius:7,alignSelf:"center",justifyContent:'center'}}>
   <Text style={{color:"white",fontSize:34,fontWeight:"700",alignSelf:'center'}}>
-    Mobile
+    TABLET
   </Text>
       </View>
 
-       <View style={{flexDirection:'row', justifyContent:'space-around',marginTop:20,marginRight:20,marginLeft:20 }}>
+      <View style={{flexDirection:'row',marginTop:20,marginRight:20,marginLeft:20 }}>
 
-       <View style={{backgroundColor:'yellow' , height:30, width:130 ,borderRadius:15,justifyContent:"center"
-      }}>
-        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
-        New Arrival Item
-        </Text>
-      </View>
+<View style={{backgroundColor:'yellow' , marginRight:10,height:25, width:90 ,borderRadius:15,justifyContent:"center"
+}}>
+ <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+ Best Seller
+ </Text>
+</View>
 
-      <View style={{backgroundColor:'yellow' , height:30, width:100 ,borderRadius:15,justifyContent:"center"
-      }}>
-        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
-        Best Selling
-        </Text>
-      </View>
+<View style={{backgroundColor:'yellow' ,marginRight:10, height:25, width:90 ,borderRadius:15,justifyContent:"center"
+}}>
+ <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+ Best Rated
+ </Text>
+</View>
 
-      <View style={{backgroundColor:'yellow' , height:30, width:120 ,borderRadius:15,justifyContent:"center"
-      }}>
-        <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
-        On Sale Items
-        </Text>
-      </View>
-       </View>
+<View style={{backgroundColor:'yellow' , marginRight:10,height:25, width:80 ,borderRadius:15,justifyContent:"center"
+}}>
+ <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
+ Specials
+ </Text>
+</View>
+</View>
+
 
 
        <ScrollView horizontal={true} style={{padding: 10}}>
@@ -255,30 +269,30 @@ const Home = () => {
 
           <View style={{height:100,width:380,backgroundColor:"black", borderRadius:7,alignSelf:"center",justifyContent:'center'}}>
   <Text style={{color:"white",fontSize:34,fontWeight:"700",alignSelf:'center'}}>
-    Mobile
+    SMART WATCH
   </Text>
       </View>
 
-       <View style={{flexDirection:'row', justifyContent:'space-around',marginTop:20,marginRight:20,marginLeft:20 }}>
+       <View style={{flexDirection:'row',marginTop:20,marginRight:20,marginLeft:20 }}>
 
-       <View style={{backgroundColor:'yellow' , height:30, width:130 ,borderRadius:15,justifyContent:"center"
+       <View style={{backgroundColor:'yellow' , marginRight:10,height:25, width:90 ,borderRadius:15,justifyContent:"center"
       }}>
         <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
-        New Arrival Item
+        Best Seller
         </Text>
       </View>
 
-      <View style={{backgroundColor:'yellow' , height:30, width:100 ,borderRadius:15,justifyContent:"center"
+      <View style={{backgroundColor:'yellow' ,marginRight:10, height:25, width:90 ,borderRadius:15,justifyContent:"center"
       }}>
         <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
-        Best Selling
+        Best Rated
         </Text>
       </View>
 
-      <View style={{backgroundColor:'yellow' , height:30, width:120 ,borderRadius:15,justifyContent:"center"
+      <View style={{backgroundColor:'yellow' , marginRight:10,height:25, width:80 ,borderRadius:15,justifyContent:"center"
       }}>
         <Text style={{color:"black",alignSelf:'center',fontSize:15}}>
-        On Sale Items
+        Specials
         </Text>
       </View>
        </View>

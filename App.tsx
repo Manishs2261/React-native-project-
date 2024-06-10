@@ -5,7 +5,7 @@
  * @format
  */
 
-import React from 'react';
+ 
 import type {PropsWithChildren} from 'react';
 import {
   SafeAreaView,
@@ -26,6 +26,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import Login from './src/components/Login';
 import Home from './src/components/Home';
+import AllCategories from './src/components/AllCategories';
  
 
  
@@ -39,7 +40,9 @@ function App(): React.JSX.Element {
     <View>
     {/* <Login/> */}
 
-    <Home/>
+    {/* <Home/> */}
+
+    <AllCategories/>
     </View>
   );
 }
