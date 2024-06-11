@@ -27,6 +27,7 @@ import {
 import Login from './src/components/Login';
 import Home from './src/components/Home';
 import AllCategories from './src/components/AllCategories';
+import SingleProduct from './src/components/SingleProduct';
  
 
  
@@ -42,7 +43,9 @@ function App(): React.JSX.Element {
 
     {/* <Home/> */}
 
-    <AllCategories/>
+    {/* <AllCategories/> */}
+
+    <SingleProduct/>
     </View>
   );
 }
