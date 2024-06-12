@@ -20,7 +20,7 @@ const SingleProduct =()=>{
 
     <View style={{flexDirection:'row',justifyContent:'space-between'}}>
          <View style={{alignItems:'center'}}>
-         <Text>SAR 2600</Text>
+         <Text style={{fontSize:25,color:"black"}}>SAR 2600</Text>
          <Text>SAR 2600</Text>
          </View>
         <View style={{height:30,width:202,borderRadius:7,borderColor:"gray",borderWidth:1,flexDirection:'row',justifyContent:'space-evenly'}}>
