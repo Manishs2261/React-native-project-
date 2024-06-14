@@ -28,6 +28,8 @@ import Login from './src/components/Login';
 import Home from './src/components/Home';
 import AllCategories from './src/components/AllCategories';
 import SingleProduct from './src/components/SingleProduct';
+import CheckOutScreen from './src/components/CheckOutScreen';
+import Profile from './src/components/ProfileScreen';
  
 
  
@@ -45,7 +47,9 @@ function App(): React.JSX.Element {
 
     {/* <AllCategories/> */}
 
-    <SingleProduct/>
+    {/* <SingleProduct/> */}
+    {/* <CheckOutScreen/> */}
+    <Profile/>
     </View>
   );
 }
