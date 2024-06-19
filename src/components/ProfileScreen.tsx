@@ -35,79 +35,79 @@ const Profile=()=>{
 
         <View style={{margin:20}}>
 
-            <Text>Shopping Cart</Text>
-            <View style={{borderColor:'grey',height:216,borderRadius:7,borderWidth:1,padding:10 ,justifyContent:'space-evenly'}}>
+            <Text style={{fontSize:15,fontWeight:'500',color:"black",marginBottom:20}}>Shopping Cart</Text>
+            <View style={{borderColor:'black',height:216,borderRadius:7,borderWidth:1,padding:10 ,justifyContent:'space-evenly'}}>
 
                 <View style={{flexDirection:'row',justifyContent:'space-between'}}>
-                    <Text>Product Name</Text>
-                    <Text>Apple iPhone 12</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>Product Name</Text>
+                    <Text style={{fontSize:15,fontWeight:'400',color:"black"}}>Apple iPhone 12</Text>
                 </View>
 
                  <View style={{height:1,width:"100%",backgroundColor:'grey'}}></View>
 
                 <View style={{flexDirection:'row',justifyContent:'space-between'}}>
-                    <Text>Quantity</Text>
-                    <Text>01</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>Quantity</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>01</Text>
                 </View>
 
                 <View style={{height:1,width:"100%",backgroundColor:'grey'}}></View>
 
                 <View style={{flexDirection:'row',justifyContent:'space-between'}}>
-                    <Text>Unit Price</Text>
-                    <Text>SAR 2600</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>Unit Price</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>SAR 2600</Text>
                 </View>
 
                 <View style={{height:1,width:"100%",backgroundColor:'grey'}}></View>
 
                 <View style={{flexDirection:'row',justifyContent:'space-between'}}>
-                    <Text>Total before Tax</Text>
-                    <Text> SAR 2600</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>Total before Tax</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}> SAR 2600</Text>
                 </View>
 
             </View>
 
-            <View style={{borderColor:'grey',height:216,borderRadius:7,borderWidth:1,padding:10 ,justifyContent:'space-evenly',marginTop:20}}>
+            <View style={{borderColor:'black',height:216,borderRadius:7,borderWidth:1,padding:10 ,justifyContent:'space-evenly',marginTop:20}}>
 
                 <View style={{flexDirection:'row',justifyContent:'space-between'}}>
-                    <Text>Sub Total</Text>
-                    <Text>2600</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>Sub Total</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>2600</Text>
                 </View>
 
                  <View style={{height:1,width:"100%",backgroundColor:'grey'}}></View>
 
                 <View style={{flexDirection:'row',justifyContent:'space-between'}}>
-                    <Text>Free Shipping</Text>
-                    <Text>SAR 0.0</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>Free Shipping</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>SAR 0.0</Text>
                 </View>
 
                 <View style={{height:1,width:"100%",backgroundColor:'grey'}}></View>
 
                 <View style={{flexDirection:'row',justifyContent:'space-between'}}>
-                    <Text>VAT(5%)</Text>
-                    <Text>SAR 130</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>VAT(5%)</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>SAR 130</Text>
                 </View>
 
                 <View style={{height:1,width:"100%",backgroundColor:'grey'}}></View>
 
                 <View style={{flexDirection:'row',justifyContent:'space-between'}}>
-                    <Text>Total </Text>
-                    <Text> SAR 2600</Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>Total </Text>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}> SAR 2600</Text>
                 </View>
 
             </View>
 
-            <Text>Enter your Coupon</Text>
+            <Text style={{fontSize:15,fontWeight:'400' , color:'black',marginVertical:20}}>Enter your Coupon</Text>
             <View style={{height:61,width:380,borderColor:'grey',borderRadius:7,borderWidth:1}}></View>
 
 
-            <Text>Enter your Gift Card</Text>
+            <Text style={{fontSize:15,fontWeight:'400' , color:'black' ,marginVertical:20}}>Enter your Gift Card</Text>
             <View style={{height:61,width:380,borderColor:'grey',borderRadius:7,borderWidth:1}}></View>
 
-            <Text>Delivery Method</Text>
-            <View style={{width:380,height:124,borderColor:'grey',borderRadius:7,borderWidth:1}}>
-                <Text>Free Shipping</Text>
-                <View style={{width:355,height:68,borderColor:'yellow',borderRadius:7,borderWidth:1}}>
-                    <Text>Free Shipping SAR 0.0</Text>
+            <Text style={{fontSize:15,fontWeight:'400' , color:'black', marginVertical:20}}>Delivery Method</Text>
+            <View style={{width:380,height:124,borderColor:'grey',borderRadius:7,borderWidth:1,padding:10}}>
+                <Text style={{fontSize:15,fontWeight:'400' , color:'black',marginBottom:5}}>Free Shipping</Text>
+                <View style={{width:355,height:68,borderColor:'orange',borderRadius:7,borderWidth:1 ,}}>
+                    <Text style={{fontSize:15,fontWeight:'400' , color:'black'}}>Free Shipping SAR 0.0</Text>
                 </View>
             </View>
 
