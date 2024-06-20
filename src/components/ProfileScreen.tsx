@@ -111,7 +111,12 @@ const Profile=()=>{
                 </View>
             </View>
 
-            <Text>Payment Method</Text>
+            <Text style={{fontSize:15,fontWeight:'500' , color:'black', marginVertical:20}}>Payment Method</Text>
+            <View  style={{height:355,width:380,borderColor:'black',borderWidth:1 ,borderRadius:7,padding:20}}>
+
+                      <Text style={{fontSize:15, fontWeight:'400',color:'black',marginBottom:10}}>Free Shipping</Text>
+                <View style={{borderWidth:1, width:355, height:68,borderColor:'black', borderRadius:7}}></View>
+            </View>
 
             
 
