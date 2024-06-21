@@ -1,4 +1,4 @@
-import { ScrollView, Text, View,Image } from "react-native";
+import { ScrollView, Text, View,Image, TextInput } from "react-native";
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 const SignUp =()=>{
@@ -20,25 +20,31 @@ const SignUp =()=>{
 
                 <Text style={{marginBottom:5,marginTop:20,color:'black'}}>First Name</Text>
                 <View style={{height:50,width:380,borderColor:'grey',borderRadius:7,borderWidth:1}}>
+                    <TextInput placeholder="Enater Name"></TextInput>
                 </View>
 
                 <Text style={{marginBottom:5,marginTop:20,color:'black'}}>Last Name</Text>
                 <View style={{height:50,width:380,borderColor:'grey',borderRadius:7,borderWidth:1}}>
+                <TextInput placeholder="Enater Last Name"></TextInput>
                 </View>
 
                 <Text style={{marginBottom:5,marginTop:20,color:'black'}}>Phone number</Text>
                 <View style={{height:50,width:380,borderColor:'grey',borderRadius:7,borderWidth:1}}>
+                <TextInput placeholder="Enater Phone Number"></TextInput>
                 </View>
 
                 <Text style={{marginBottom:5,marginTop:20,color:'black'}}>Email Address</Text>
                 <View style={{height:50,width:380,borderColor:'grey',borderRadius:7,borderWidth:1}}>
+                <TextInput placeholder="Enater Email Id"></TextInput>
                 </View>
 
                 <Text style={{marginBottom:5,marginTop:20,color:'black'}}>Password</Text>
                 <View style={{height:50,width:380,borderColor:'grey',borderRadius:7,borderWidth:1}}>
+                <TextInput placeholder="Enater Password - Rahul@55"></TextInput>
                 </View>
                 <Text style={{marginBottom:5,marginTop:20,color:'black'}}>Confirm Password</Text>
                 <View style={{height:50,width:380,borderColor:'grey',borderRadius:7,borderWidth:1}}>
+                <TextInput placeholder="Re-enater Password"></TextInput>
                 </View>
 
                 <View style={{flexDirection:'row' ,justifyContent:'space-between',marginTop:20}}>
