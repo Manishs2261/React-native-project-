@@ -112,10 +112,21 @@ const Profile=()=>{
             </View>
 
             <Text style={{fontSize:15,fontWeight:'500' , color:'black', marginVertical:20}}>Payment Method</Text>
-            <View  style={{height:355,width:380,borderColor:'black',borderWidth:1 ,borderRadius:7,padding:20}}>
+            <View  style={{height:365,width:380,borderColor:'black',borderWidth:1 ,borderRadius:7,padding:20}}>
 
                       <Text style={{fontSize:15, fontWeight:'400',color:'black',marginBottom:10}}>Free Shipping</Text>
-                <View style={{borderWidth:1, width:355, height:68,borderColor:'black', borderRadius:7}}></View>
+                      <View style={{borderWidth:1, width:345, height:68,borderColor:'black', borderRadius:7, marginBottom:10}}>
+                        <Text style={{fontSize:15, fontWeight:'400',color:'black',marginBottom:10}}>Credit Card / Debit Card </Text>
+                      </View>
+                      <View style={{borderWidth:1, width:345, height:68,borderColor:'black', borderRadius:7, marginBottom:10}}>
+                        <Text style={{fontSize:15, fontWeight:'400',color:'black',marginBottom:10}}>Pay in 4 with Tabby. No interest, no fees. </Text>
+                      </View>
+                      <View style={{borderWidth:1, width:345, height:68,borderColor:'black', borderRadius:7, marginBottom:10}}>
+                        <Text style={{fontSize:15, fontWeight:'400',color:'black',marginBottom:10}}>PayPal</Text>
+                      </View>
+                <View style={{borderWidth:1, width:345, height:68,borderColor:'black', borderRadius:7}}>
+                    <Text style={{fontSize:15, fontWeight:'400',color:'black',marginBottom:10}}>Pay in 4 with Tabby. No interest, no fees. </Text>
+                </View>
             </View>
 
             
