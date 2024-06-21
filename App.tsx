@@ -29,7 +29,9 @@ import Home from './src/components/Home';
 import AllCategories from './src/components/AllCategories';
 import SingleProduct from './src/components/SingleProduct';
 import CheckOutScreen from './src/components/CheckOutScreen';
-import Profile from './src/components/ProfileScreen';
+import Profile from './src/components/Pofile';
+import Wishlist from './src/components/Wishlist';
+import SignUp from './src/components/SignUp';
  
 
  
@@ -46,10 +48,15 @@ function App(): React.JSX.Element {
     {/* <Home/> */}
 
     {/* <AllCategories/> */}
-
-    {/* <SingleProduct/> */}
+{/* 
+    <SingleProduct/> */}
     {/* <CheckOutScreen/> */}
-    <Profile/>
+    {/* <Profile/> */}
+
+    {/* <Wishlist/> */}
+    {/* <Profile/> */}
+    <SignUp/>
+    
     </View>
   );
 }

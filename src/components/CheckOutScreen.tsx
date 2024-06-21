@@ -1,6 +1,7 @@
 import {View, Text, ScrollView, TextInput} from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+ 
 
 const CheckOutScreen = () => {
   return (
