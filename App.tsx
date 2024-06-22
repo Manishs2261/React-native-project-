@@ -32,33 +32,52 @@ import CheckOutScreen from './src/components/CheckOutScreen';
 import Profile from './src/components/Pofile';
 import Wishlist from './src/components/Wishlist';
 import SignUp from './src/components/SignUp';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
  
 
  
+const Stack = createNativeStackNavigator();
 
  
 
 function App(): React.JSX.Element {
    
   return (
+
+
+    <NavigationContainer>
+
+ 
+<Stack.Navigator initialRouteName="Splash">
+<Stack.Screen
+name='Login'
+component={Login}>
+  
+</Stack.Screen>
+
+</Stack.Navigator>
+ 
+  </NavigationContainer>
+);
      
-    <View>
-    {/* <Login/> */}
+//     <View>
+//     {/* <Login/> */}
 
-    {/* <Home/> */}
+//     {/* <Home/> */}
 
-    {/* <AllCategories/> */}
-{/* 
-    <SingleProduct/> */}
-    {/* <CheckOutScreen/> */}
-    {/* <Profile/> */}
+//     {/* <AllCategories/> */}
+// {/* 
+//     <SingleProduct/> */}
+//     {/* <CheckOutScreen/> */}
+//     {/* <Profile/> */}
 
-    {/* <Wishlist/> */}
-    {/* <Profile/> */}
-    <SignUp/>
+//     {/* <Wishlist/> */}
+//     {/* <Profile/> */}
+//     <SignUp/>
     
-    </View>
-  );
+//     </View>
+  // );
 }
 
  
