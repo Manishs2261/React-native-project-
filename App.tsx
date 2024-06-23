@@ -46,38 +46,38 @@ function App(): React.JSX.Element {
   return (
 
 
-    <NavigationContainer>
+//     <NavigationContainer>
 
  
-<Stack.Navigator initialRouteName="Splash">
-<Stack.Screen
-name='Login'
-component={Login}>
+// <Stack.Navigator initialRouteName="Splash">
+// <Stack.Screen
+// name='Login'
+// component={Login}>
   
-</Stack.Screen>
+// </Stack.Screen>
 
-</Stack.Navigator>
+// </Stack.Navigator>
  
-  </NavigationContainer>
-);
+//   </NavigationContainer>
+// );
      
-//     <View>
-//     {/* <Login/> */}
+    <View>
+    {/* <Login/> */}
 
-//     {/* <Home/> */}
+    {/* <Home/> */}
 
-//     {/* <AllCategories/> */}
-// {/* 
-//     <SingleProduct/> */}
-//     {/* <CheckOutScreen/> */}
-//     {/* <Profile/> */}
+    {/* <AllCategories/> */}
+{/* 
+    <SingleProduct/> */}
+    {/* <CheckOutScreen/> */}
+    <Profile/>
 
-//     {/* <Wishlist/> */}
-//     {/* <Profile/> */}
-//     <SignUp/>
+    {/* <Wishlist/> */}
+    {/* <Profile/> */}
+    {/* <SignUp/> */}
     
-//     </View>
-  // );
+    </View>
+  );
 }
 
  
